@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Developer - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">&lt;/Dev&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <div class="hero-text">
+                <h1>John Developer</h1>
+                <h2>Full Stack Developer</h2>
+                <p>Building innovative solutions with modern technologies. Passionate about creating scalable
+                    applications and exploring the latest in web development.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <pre>
+const developer = {
+  name: "John Developer",
+  skills: [".NET", "React", "Azure"],
+  passion: "Innovation",
+  status: "Available for hire"
+};
+
+console.log(developer.greet());
+// > "Let's build something amazing!"
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <img src="https://via.placeholder.com/200" alt="Profile">
+                <h3>John Developer</h3>
+                <p style="color: var(--accent-cyan);">Full Stack Developer</p>
+            </div>
+            <div class="about-text">
+                <h3>Hello, I'm a Developer</h3>
+                <p>With over 5 years of experience in software development, I specialize in building robust web
+                    applications using the .NET ecosystem, modern JavaScript frameworks, and cloud technologies.</p>
+                <p>I'm passionate about writing clean, maintainable code and staying up-to-date with the latest industry
+                    trends. Whether it's architecting scalable backend systems or crafting intuitive user interfaces, I
+                    bring dedication and expertise to every project.</p>
+
+                <h3 style="margin-top: 2rem;">Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-tag">C# / .NET</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">Azure</div>
+                    <div class="skill-tag">SQL Server</div>
+                    <div class="skill-tag">Node.js</div>
+                    <div class="skill-tag">Docker</div>
+                    <div class="skill-tag">Git</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🚀</div>
+                <div class="project-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A comprehensive e-commerce solution built with .NET Core and React, featuring real-time inventory
+                        management and payment integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">.NET Core</span>
+                        <span class="tag">React</span>
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">Azure</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates, team workspaces, and deadline
+                        tracking.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Socket.io</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <h3>AI-Powered Analytics</h3>
+                    <p>An analytics dashboard leveraging machine learning to provide insights and predictions from
+                        business data.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Azure ML</span>
+                        <span class="tag">React</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🔒</div>
+                <div class="project-content">
+                    <h3>Secure API Gateway</h3>
+                    <p>A microservices API gateway with authentication, rate limiting, and comprehensive logging
+                        capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">.NET Core</span>
+                        <span class="tag">OAuth 2.0</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3>Real-Time Dashboard</h3>
+                    <p>A dynamic dashboard displaying real-time metrics and KPIs with interactive charts and data
+                        visualization.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">WebSockets</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">☁️</div>
+                <div class="project-content">
+                    <h3>Cloud Migration Tool</h3>
+                    <p>Automated tool for migrating on-premise applications to Azure cloud with minimal downtime.</p>
+                    <div class="project-tags">
+                        <span class="tag">Azure</span>
+                        <span class="tag">PowerShell</span>
+                        <span class="tag">.NET</span>
+                        <span class="tag">DevOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Email</a>
+        </div>
+        <p style="color: var(--text-secondary);">© 2025 John Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js">
+      
+    </script>
+</body>
+
+</html>
